@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "curso-scrapy"
+version = "0.1.0"
+description = ""
+authors = ["Anderson de Araújo Alves <anderson.araujoa@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12.4"
+scrapy = "^2.11.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
